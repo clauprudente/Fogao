@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Interface Acessível para Fogão — Projeto</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #111;
+      line-height: 1.4;
+    "
+  >
+    <header
+      role="banner"
+      style="
+        padding: 24px;
+        background: linear-gradient(90deg, #0b5a8a, #0573b8);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      "
+    >
+      <div style="flex: 1 1 auto">
+        <h1 style="margin: 0; font-size: 20px">
+          Interface Acessível para Fogão — Projeto de UX
+        </h1>
+        <p style="margin: 4px 0 0; font-size: 14px;">
+          Design inclusivo pensado para segurança, usabilidade e empatia.
+        </p>
+      </div>
+    </header>
+
+    <main
+      id="main"
+      tabindex="-1"
+      style="
+        padding: 24px;
+        max-width: 980px;
+        margin: 20px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+      "
+    >
+      <section aria-labelledby="autor-title" style="margin-bottom: 28px">
+        <h2 id="autor-title" style="font-size: 18px; margin: 0 0 8px">
+          1 - Apresentação do Projetista
+        </h2>
+        <div style="display: flex; gap: 16px; align-items: flex-start">
+          <img
+            src="./projetista.jpeg"
+            alt="Foto da projetista"
+            style="
+              width: 120px;
+              height: 120px;
+              border-radius: 8px;
+              object-fit: cover;
+              border: 2px solid #e6e6e6;
+            "
+          />
+          <div>
+            <p style="margin: 0 0 8px">
+              Olá — eu sou <strong>Cláudia</strong>, projetista de experiência do usuário com foco em acessibilidade.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="interface-title" style="margin-bottom: 28px">
+        <h2 id="interface-title" style="font-size: 18px; margin: 0 0 8px">
+          2 - Nova Interface do Fogão
+        </h2>
+        <div
+          style="
+            text-align: center;
+          "
+        >
+          <img
+            src="./fogao.png"
+            alt="Imagem ilustrativa da nova interface do fogão"
+            style="
+              width: 600px;
+              max-width: 100%;
+              height: auto;
+            "
+          />
+        </div>
+        <div
+          style="
+            background: #fbfbff;
+            padding: 14px;
+            border-radius: 8px;
+            border: 1px solid #eef;
+          "
+        >
+          <h3 style="margin: 0 0 8px; font-size: 16px">Conceito</h3>
+          <p style="margin: 0 0 8px">
+            A interface possui elementos visuais altos em contraste e com ícones legíveis; controles amplos e possui feedback auditivo/visual.
+          </p>
+
+          <h3 style="margin: 0 0 8px; font-size: 16px">
+            Necessidades atendidas
+          </h3>
+          <ul style="margin: 0 0 8px 18px">
+            <li>
+              Usuários cadeirantes: controle remoto e botões baixos e de fácil alcance, botões grandes com distância entre si.
+            </li>
+            <li>
+              Deficiência visual / baixa visão: botões com relevo, alto contraste, etiquetas em braille e leitura por voz via assistente embutido.
+            </li>
+            <li>
+              Deficiência auditiva: sinais visuais claross.
+            </li>
+            <li>
+              Daltonismo: combinações de forma + ícone + texto.
+            </li>
+          </ul>
+
+          <h3 style="margin: 0 0 8px; font-size: 16px">
+            Princípios de usabilidade e acessibilidade aplicados
+          </h3>
+          <ul style="margin: 0 0 8px 18px">
+            <li>
+              Clareza: linguagem simples e instruções passo-a-passo no painel e manual.
+            </li>
+            <li>
+              Consistência: todos os queimadores seguem a mesma lógica e feedback.
+            </li>
+            <li>
+              Controlável: desligar rápido (botão de emergência com destaque tanto no controle quanto no fogão).
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section aria-labelledby="manual-title" style="margin-bottom: 6px">
+        <h2 id="manual-title" style="font-size: 18px; margin: 0 0 8px">
+          3 - Manual de Utilização
+        </h2>
+
+        <div style="display: flex; gap: 18px; flex-wrap: wrap">
+          <div style="flex: 1 1 420px; min-width: 300px">
+            <h3 style="margin: 0 0 8px; font-size: 16px">
+              Guia rápido - para acender uma boca
+            </h3>
+            <ol style="margin: 0 0 12px 18px">
+              <li>
+                <strong>Posicione</strong> a panela na boca desejada e mantenha panos longe do calor.
+              </li>
+              <li>
+                <strong>Pressione</strong> o botão do queimador correspondente.
+              </li>
+              <li>
+                <strong>Ajuste</strong> a temperatura girando o botão. Um bip curto é emitido para confirmar cada mudança.
+              </li>
+              <li>
+                <strong>Para desligar</strong>, gire o botão totalmente em sentido anti-horário até o indicador apontar para a marca OFF; um bip longo e um LED vermelho apagarão ao desligar.
+              </li>
+            </ol>
+
+            <h3 style="margin: 0 0 8px; font-size: 16px">
+              Instruções de segurança (diretas e acessíveis)
+            </h3>
+            <ul style="margin: 0 0 12px 18px">
+              <li>
+                Botão de emergência: pressiona uma vez para cortar o gás e desligar todos os queimadores.
+              </li>
+              <li>
+                Mantenha crianças longe e evite roupas soltas próximas ao fogão.
+              </li>
+              <li>
+                Use recipientes adequados e estáveis — evite panelas que desestabilizem a chama.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      <footer
+        role="contentinfo"
+        style="
+          margin-top: 18px;
+          padding-top: 14px;
+          border-top: 1px solid #eee;
+          display: flex;
+          justify-content: space-between;
+          gap: 12px;
+          align-items: center;
+        "
+      >
+        <strong> © 2025</strong> by Clau Prudente
+      </footer>
+    </main>
+  </body>
+</html>
